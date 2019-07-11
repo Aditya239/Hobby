@@ -13,7 +13,7 @@ def flipud(X):
     '''
     
     # Your code here
-
+    X.reverse()
     return X
 
 def plot(Frac, height, width):
@@ -42,6 +42,16 @@ def compute(height, width, scale, const):
     '''
 
     # Your code here
+    number=0+1j*0
+    list_row=[]
+    final_answer=[]
+    for i in range(480):
+        number=-1.6+1j*((-height/scale)+i*(2*height/(scale*479)))
+        for k in range(720):
+            if(k!=0):
+                number=number+1j*((2*width/(scale*719)))
+            list_row=[number]
+        final_answer=[[list_row]] 
 
     return [[0]*width]*height
 

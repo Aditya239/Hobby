@@ -45,11 +45,11 @@ def compute(height, width, scale, const):
     number=0+1j*0
     list_row=[]
     final_answer=[]
-    for i in range(480):
-        number=-1.6+1j*((-height/scale)+i*(2*height/(scale*479)))
-        for k in range(720):
+    for i in range(height):
+        number=-(width/scale)+1j*((-height/scale)+i*(2*height/(scale*(height-1))))
+        for k in range(width):
             if(k!=0):
-                number=number+1j*((2*width/(scale*719)))
+                number=number+1j*((2*width/(scale*(width-1))))
             list_row=[number]
         final_answer=[[list_row]] 
 

@@ -49,7 +49,7 @@ def compute(height, width, scale, const):
         number=-(width/scale)+1j*((-height/scale)+i*(2*height/(scale*(height-1))))
         for k in range(width):
             if(k!=0):
-                number=number+1j*((2*width/(scale*(width-1))))
+                number=number+(2*width/(scale*(width-1)))
             list_row=[number]
         final_answer=[[list_row]] 
 

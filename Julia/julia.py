@@ -53,12 +53,12 @@ def compute(height, width, scale, const):
                 number=number+(2*width/(scale*(width-1)))
             list_row+=[number]
         final_answer+=[list_row]
-    for i in range(height):
-        for k in range(width):
-            final_answer[i][k]=(final_answer[i][k])**2+const
+    for ret in range(height):
+        for pere in range(width):
+            final_answer[ret][pere]=(final_answer[ret][pere])**2+const
 
     M=[[0]*width]*height
-    for i in range(255):
+    for joh in range(255):
         for p in range(height):
             for q in range(width):
                 if(abs(final_answer[p][q])<=2):

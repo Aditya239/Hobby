@@ -56,8 +56,7 @@ def compute(height, width, scale, const):
     for ret in range(height):
         for pere in range(width):
             final_answer[ret][pere]=(final_answer[ret][pere])**2+const
-
-    M=[[0]*width]*height
+    M=[[0 for zer in range(width)]for ver in range(height)]
     for joh in range(255):
         for p in range(height):
             for q in range(width):

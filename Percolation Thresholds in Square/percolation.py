@@ -7,6 +7,7 @@ def generate(N,p):
     M = []
     list_row = []
     for i in range(N):
+        list_row=[]
         for j in range(N):
             l = random.random()
             if(l<=p):
@@ -18,25 +19,25 @@ def generate(N,p):
 
         	
 def percolate(M):
-    for i in range(N):
+    for i in range(len(M)):
 	if(M[0][i]==1):
             M[0][i]==2
     
-    for i in range(N-1):
-    	for j in range(N):
+    for i in range(len(M)-1):
+    	for j in range(len(M)):
     	    if(M[i+1][j]==1):
     	        if(M[i][j]==1 or M[i][j]==2):
     		    M[i+1][j]==2
-    
-    for i in range(N-1):
-        for j in range(N):
-            if(M[i+1][j]==1):
-                if(j+1<=N and M[i+1][j+1]==2):
-                    M[i+1][j]==2
-                elif(j-1>=0 and M[i+1][j-1]==2):
-                    M[i+1][j]==2
-    for i in range(N):
-        if(M[N-1][i]==2):
+    for qwerty in range(len(M)):
+        for i in range(len(M)-1):
+            for j in range(len(M)):
+                if(M[i+1][j]==1):
+                    if(j+1<len(M) and M[i+1][j+1]==2):
+                        M[i+1][j]==2
+                    elif(j-1>=0 and M[i+1][j-1]==2):
+                        M[i+1][j]==2
+    for i in range(len(M)):
+        if(M[len(M)-1][i]==2):
             return 1
     return 0
     

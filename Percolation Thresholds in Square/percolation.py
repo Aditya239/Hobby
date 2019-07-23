@@ -21,14 +21,14 @@ def generate(N,p):
 def percolate(M):
     for i in range(len(M)):
 	if(M[0][i]==1):
-            M[0][i]==2
+            M[0][i]=2
          
     
     for i in range(len(M)-1):
     	for j in range(len(M)):
     	    if(M[i+1][j]==1):
-    	        if(M[i][j]==1 or M[i][j]==2):
-    		    M[i+1][j]==2
+    	        if(M[i][j]==2):
+    		    M[i+1][j]=2
         for h in range(len(M)):
             if(M[i+1][h]==1):
                 if(h-1>=0 and M[i+1][h-1]==2):

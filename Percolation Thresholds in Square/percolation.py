@@ -36,7 +36,7 @@ def percolate(M):
 
         for g in range(len(M)):
             if(M[i+1][len(M)-1-g]==1):
-                if(len(M)-1-g+1<len(M) and M[i+1][len(M)-1-g+1==2]):
+                if(len(M)-1-g+1<len(M) and M[i+1][len(M)-1-g+1]==2):
                     M[i+1][len(M)-1-g]=2
                 
 
@@ -47,7 +47,7 @@ def percolate(M):
     return 0
     
 def plot(x,y):
-    plt.scatter(x, y, label= "stars", color= "green", marker= "*", s= 30)
+    plt.scatter(x, y, label= r'$p$', facecolor = 'red', edgecolor = 'black', marker= 'o', s = 30)
     plt.xlabel('Values of p')
     plt.ylabel('Probability of percolation')
     plt.legend()

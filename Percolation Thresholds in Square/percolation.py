@@ -51,6 +51,8 @@ def plot(x,y):
     plt.xlabel('Values of p')
     plt.ylabel('Probability of percolation')
     plt.legend()
+    plt.axvline(0.596,color='red',linewidth=3,linestyle='dotted')
+    plt.text(0.596,0,"(0.596,0)",fontsize=15)
     plt.show()   
     
 def simulate(T,N,p):

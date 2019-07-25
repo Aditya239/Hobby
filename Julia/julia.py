@@ -30,7 +30,7 @@ def plot(Frac, height, width):
     # For some reason we want to flip the image 
     # upside down and then plot
     plt.imshow(flipud(Frac), cmap='hot')
-    plt.savefig('julia.png')
+    plt.savefig('julia_0.355_0.355.png')
     plt.show()
     plt.close()
 

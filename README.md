@@ -1,4 +1,4 @@
-#Hobby
+# Hobby
 ## Python related coding exercises with real-life applications.
 
 **What are Fractals**
@@ -11,17 +11,22 @@ The Julia set is named after the French mathematician Gaston Julia who investiga
 
 Some of the patterns obtained for different values of c are shown below:
 
-<img src="Julia/julia.png" width="400"/>
+
 <figcaption>For c = 0.37+0.1i </figcaption>
+<img src="Julia/julia.png" width="400"/>
 
-<img src="Julia/julia_0.4_0.59.png" width="400"/>
+
 <figcaption>For c = -0.4+-0.59i </figcaption>
+<img src="Julia/julia_0.4_0.59.png" width="400"/>
 
-<img src="Julia/julia_0.355_0.355.png" width="400"/>
+
 <figcaption>For c = 0.355+0.355i </figcaption>
+<img src="Julia/julia_0.355_0.355.png" width="400"/>
 
-<img src="Julia/julia_0.54_0.54.png" width="400"/>
+
 <figcaption>For c = -0.54+0.54i </figcaption>
+<img src="Julia/julia_0.54_0.54.png" width="400"/>
+
 
 
 Graph of probability generated from program:

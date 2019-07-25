@@ -47,13 +47,24 @@ def percolate(M):
     return 0
     
 def plot(x,y):
+   
+    min=abs(0.5-y[0])
+    pos=0   
+    for i in range(len(x)-1):
+        if(abs(0.5-y[i+1])<min):
+            min=abs(0.5-y[i+1])
+            pos=i+1
+   
     plt.scatter(x, y, label= r'$p$', facecolor = 'red', edgecolor = 'black', marker= 'o', s = 30)
     plt.xlabel('Values of p')
     plt.ylabel('Probability of percolation')
     plt.legend()
-    plt.axvline(0.596,color='red',linewidth=3,linestyle='dotted')
-    plt.text(0.596,0,"(0.596,0)",fontsize=15)
-    plt.show()   
+    plt.axvline(x[pos],color='red',linewidth=3,linestyle='dotted')
+    plt.text(x[pos],0,x[pos],fontsize=15)
+    plt.savefig('probability_graph.png')
+    plt.show()
+            
+        
     
 def simulate(T,N,p):
     u=[]

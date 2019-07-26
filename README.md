@@ -1,5 +1,7 @@
 # Hobby
-## Python related coding exercises with real-life applications.
+### Python related coding exercises with real-life applications.
+
+## Julia Fractals
 
 **What are Fractals**
 
@@ -11,25 +13,12 @@ The Julia set is named after the French mathematician Gaston Julia who investiga
 
 Some of the patterns obtained for different values of ![equation](https://latex.codecogs.com/png.latex?c) are shown below:
 
-For ![equation](https://latex.codecogs.com/png.latex?c%20%3D%200.37&plus;0.1i)
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+|<img width="400" src="Julia/julia.png">   ![equation](https://latex.codecogs.com/png.latex?c%20%3D%200.37&plus;0.1i) |  <img width="400" src="Julia/julia_0.4_0.59.png">    ![equation](https://latex.codecogs.com/png.latex?c%20%3D%20-0.4&plus;-0.59i)|
+|<img width="400" src="Julia/julia_0.355_0.355.png">  ![equation](https://latex.codecogs.com/png.latex?c%20%3D%200.355&plus;0.355i)|  <img width="400" src="Julia/julia_0.54_0.54.png">   ![equation](https://latex.codecogs.com/png.latex?c%20%3D%20-0.54&plus;0.54i)|
 
-<img src="Julia/julia.png" width="400"/>
-
-For ![equation](https://latex.codecogs.com/png.latex?c%20%3D%20-0.4&plus;-0.59i)
-
-<img src="Julia/julia_0.4_0.59.png" width="400"/>
-
-For ![equation](https://latex.codecogs.com/png.latex?c%20%3D%200.355&plus;0.355i)
-
-<img src="Julia/julia_0.355_0.355.png" width="400"/>
-
-For ![equation](https://latex.codecogs.com/png.latex?c%20%3D%20-0.54&plus;0.54i)
-
-<img src="Julia/julia_0.54_0.54.png" width="400"/>
-
-
-
-**Percolation Thresholds in Square and Cubic Lattices**
+## **Percolation Thresholds in Square and Cubic Lattices**
 
 The percolation threshold is a mathematical concept in percolation theory that describes the formation of long-range connectivity in random systems. Below the threshold a giant connected component does not exist; while above it, there exists a giant component of the order of system size. In engineering and coffee making, percolation represents the flow of fluids through porous media, but in the mathematics and physics worlds it generally refers to simplified lattice models of random systems or networks (graphs), and the nature of the connectivity in them. The percolation threshold is the critical value of the occupation probability p, or more generally a critical surface for a group of parameters p1, p2, ..., such that infinite connectivity (percolation) first occurs.
 
@@ -39,10 +28,8 @@ Here we consider only Square and Simple Cubic percolation models.
 
 While in the general case, percolation path from the first row to the last can be such that vacant sites on the path can lie on any adjacent edge, we will make the assumption that percolation is forward only.
 
-Site percolation threshold for Square model by plotting graph is given below:
+Site percolation threshold plots for simple square and cubic lattice models against site vacancy probability is given below:
 
-<img src="Percolation Thresholds in Square/probability_graph.png" width="400"/>
-
-Site percolation threshold for Cubic model by plotting graph is given below:
-
-<img src="Percolation Thresholds in Cube/probability_graph_cube.png" width="400"/>
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+|<img width="400" src="Percolation Thresholds in Square/probability_graph.png">   Site percolation threshold for Simple Square Lattice |  <img width="400" src="Percolation Thresholds in Cube/probability_graph_cube.png">    Site percolation threshold for Simple Cubic Lattice|

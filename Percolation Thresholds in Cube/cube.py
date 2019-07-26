@@ -36,23 +36,24 @@ def percolate(M):
         for g in range(len(M)):
             for h in range(len(M)):
                 if(M[i+1][g][h]==1):
-                    if(M[i+1][g][h-1]==2 and h-1>=0):
+                    if(h-1>=0 and M[i+1][g][h-1]==2):
                         M[i+1][g][h]=2
         for a in range(len(M)):
             for b in range(len(M)):
                 if(M[i+1][a][len(M)-1-b]==1):
-                    if(M[i+1][a][len(M)-1-b+1]==2 and (len(M)-b)<len(M)):
+                    if(len(M)-1-b+1<len(M) and M[i+1][a][len(M)-1-b+1]==2):
                         M[i+1][a][len(M)-1-b]=2
         for u in range(len(M)):
             for v in range(len(M)):
                 if(M[i+1][v][u]==1):
-                    if(M[i+1][v-1][u]==2 and v-1>=0):
+                    if(v-1>=0 and M[i+1][v-1][u]==2):
                         M[i+1][v][u]=2
         for c in range(len(M)):
             for d in range(len(M)):
-                if(M[i+1][d][len(M)-1-c]==1):
-                    if(M[i+1][d-1][len(M)-1-c]==2 and d-1>=0):
-                        M[i+1][d][len(M)-1-c]=2
+                if(M[i+1][len(M)-1-d][c]==1):
+                    if(len(M)-1-d-1>=0 and M[i+1][len(M)-1-d-1][c]==2):
+                        M[i+1][len(M)-1-d][c]=2
+                                      
 
     for w in range(len(M)):
         for z in range(len(M)):

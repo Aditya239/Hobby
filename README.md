@@ -1,7 +1,7 @@
 # Hobby
 ### Python related coding exercises with real-life applications.
 
-## Julia Fractals
+## 1. Julia Fractals
 
 **What are Fractals**
 
@@ -18,7 +18,7 @@ Some of the patterns obtained for different values of ![equation](https://latex.
 |<img width="400" src="Julia/julia.png">   ![equation](https://latex.codecogs.com/png.latex?c%20%3D%200.37&plus;0.1i) |  <img width="400" src="Julia/julia_0.4_0.59.png">    ![equation](https://latex.codecogs.com/png.latex?c%20%3D%20-0.4&plus;-0.59i)|
 |<img width="400" src="Julia/julia_0.355_0.355.png">  ![equation](https://latex.codecogs.com/png.latex?c%20%3D%200.355&plus;0.355i)|  <img width="400" src="Julia/julia_0.54_0.54.png">   ![equation](https://latex.codecogs.com/png.latex?c%20%3D%20-0.54&plus;0.54i)|
 
-## **Percolation Thresholds in Square and Cubic Lattices**
+## 2. **Percolation Thresholds in Square and Cubic Lattices**
 
 The percolation threshold is a mathematical concept in percolation theory that describes the formation of long-range connectivity in random systems. Below the threshold a giant connected component does not exist; while above it, there exists a giant component of the order of system size. In engineering and coffee making, percolation represents the flow of fluids through porous media, but in the mathematics and physics worlds it generally refers to simplified lattice models of random systems or networks (graphs), and the nature of the connectivity in them. The percolation threshold is the critical value of the occupation probability p, or more generally a critical surface for a group of parameters p1, p2, ..., such that infinite connectivity (percolation) first occurs.
 

@@ -29,6 +29,20 @@ For ![equation](https://latex.codecogs.com/png.latex?c%20%3D%20-0.54&plus;0.54i)
 
 
 
-Graph of probability generated from program:
+**Percolation Thresholds in Square and Cubic Lattices**
+
+The percolation threshold is a mathematical concept in percolation theory that describes the formation of long-range connectivity in random systems. Below the threshold a giant connected component does not exist; while above it, there exists a giant component of the order of system size. In engineering and coffee making, percolation represents the flow of fluids through porous media, but in the mathematics and physics worlds it generally refers to simplified lattice models of random systems or networks (graphs), and the nature of the connectivity in them. The percolation threshold is the critical value of the occupation probability p, or more generally a critical surface for a group of parameters p1, p2, ..., such that infinite connectivity (percolation) first occurs.
+
+Here we consider only Square and Simple Cubic percolation models.
+
+**Simplifying Assumption**
+
+While in the general case, percolation path from the first row to the last can be such that vacant sites on the path can lie on any adjacent edge, we will make the assumption that percolation is forward only.
+
+Site percolation threshold for Square model by plotting graph is given below:
 
 <img src="Percolation Thresholds in Square/probability_graph.png" width="400"/>
+
+Site percolation threshold for Cubic model by plotting graph is given below:
+
+<img src="Percolation Thresholds in Cube/probability_graph_cube.png" width="400"/>

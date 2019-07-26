@@ -13,8 +13,8 @@ The Julia set is named after the French mathematician Gaston Julia who investiga
 
 Some of the patterns obtained for different values of ![equation](https://latex.codecogs.com/png.latex?c) are shown below:
 
-| | | |
-|:-------------------------:|:-------------------------:|:-------------------------:|
+| | |
+|:-------------------------:|:-------------------------:|
 |<img width="400" src="Julia/julia.png">   ![equation](https://latex.codecogs.com/png.latex?c%20%3D%200.37&plus;0.1i) |  <img width="400" src="Julia/julia_0.4_0.59.png">    ![equation](https://latex.codecogs.com/png.latex?c%20%3D%20-0.4&plus;-0.59i)|
 |<img width="400" src="Julia/julia_0.355_0.355.png">  ![equation](https://latex.codecogs.com/png.latex?c%20%3D%200.355&plus;0.355i)|  <img width="400" src="Julia/julia_0.54_0.54.png">   ![equation](https://latex.codecogs.com/png.latex?c%20%3D%20-0.54&plus;0.54i)|
 
@@ -30,6 +30,6 @@ While in the general case, percolation path from the first row to the last can b
 
 Site percolation threshold plots for simple square and cubic lattice models against site vacancy probability is given below:
 
-| | | |
-|:-------------------------:|:-------------------------:|:-------------------------:|
+| | |
+|:-------------------------:|:-------------------------:|
 |<img width="400" src="Percolation Thresholds in Square/probability_graph.png">   Site percolation threshold for Simple Square Lattice |  <img width="400" src="Percolation Thresholds in Cube/probability_graph_cube.png">    Site percolation threshold for Simple Cubic Lattice|

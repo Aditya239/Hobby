@@ -51,7 +51,7 @@ def percolate(M):
         for c in range(len(M)):
             for d in range(len(M)):
                 if(M[i+1][len(M)-1-d][c]==1):
-                    if(len(M)-1-d-1>=0 and M[i+1][len(M)-1-d-1][c]==2):
+                    if(len(M)-1-d+1<len(M) and M[i+1][len(M)-1-d+1][c]==2):
                         M[i+1][len(M)-1-d][c]=2
                                       
 
